@@ -1,0 +1,551 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+}
+.main-profile{
+    padding: 20px;
+    /* width: 1500px; */
+    height: 600px;
+    background: url(logo6.jpg);
+  background-repeat: no-repeat;
+  /* position: relative; */
+  /* right: 20px; */
+  background-size: cover;
+  background-position: 25% 30%;
+    /* background-size: 1200px 900px; */
+  
+}
+
+.mainlogo{ 
+    list-style-image: url(logo.png);
+    /* width: 20px; */
+    margin-left:30px ;  
+
+}
+.main-logo a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 28px;
+    /* margin-bottom: 500px; */
+    color: aliceblue;
+    /* height:100px; */
+    font-weight: lighter;
+    /* line-height: 30px; */
+    text-decoration: none;
+}
+.profile{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    height: 50px;
+    width: 100%;
+    padding-top: 15px;
+    /* margin-top: 200px; */
+    /* margin: 60px; */
+}
+.top-nav{
+    /* margin-right: 20px; */
+    /* display: inline-flex;
+    flex-direction: row; */
+}
+.top-nav li{
+    color: white;
+    /* padding: 10px; */
+    display: inline;
+    float: right;
+    position: relative;
+    top: -50px;
+    right: 50px;
+    /* left: 700px; */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+}
+/* .top-nav li a img{
+    width: 20px;
+} */
+.top-nav li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.sub-nav li{
+    display: inline;
+}
+.sub-nav{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: -25px;
+    text-decoration: none;
+}
+.sub-nav li{
+    /* padding: 10px; */
+    /* color: rgba(red, green, blue, 0.5); */
+    text-decoration: none;
+}
+.sub-nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 20px;
+}
+.arrowdown{
+    /* border-image: 20px solid #ffffff; */
+    width: 10px;
+    height: 10px;
+}
+.logo1{
+    margin-right: 10px;
+    /* margin-left: 2px; */
+    width: 15px;
+    height: 15px;
+}
+.logo2{
+    margin-right: 10px;
+    /* margin-left: 2px; */
+    width: 15px;
+    height: 15px;
+}
+.logo3{
+    margin-right: 10px;
+    /* margin-left: 2px; */
+    width: 15px;
+    height: 15px;
+}
+.logo5{
+    margin-right: 10px;
+    /* margin-left: 2px; */
+    border-radius: 10px;
+    /* border-image: 1px solid #000000; */
+    height: 14px;
+    width: 14px;
+}
+.promo{
+    /* background-color: red; */
+    width: 700px;
+    margin-top: 60px;
+    margin-left:30px
+    
+}
+.promo>h1{
+    color: #ffffff;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    line-height: 60px;
+}
+.promo>p{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 35px;
+}
+.promo>button{
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #ffffff;
+    width: 340px;
+    height: 55px;
+    border: none;
+    background-color: #6ace26;
+}
+.arrowdown2{
+    margin-left: 2px;
+    width: 10px;
+    height: 10px;
+}
+.build{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 100%;
+    height: 500px;
+    /* background-color: green; */
+}
+.build>span{
+    width: 98%;
+    justify-content: center;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.build>span>div{
+    /* padding: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    color: #5b5b5b;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.build>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #5588db;
+}
+
+.WordPress>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.WordPress>p{
+    padding-top: 10px;
+}
+.support>p{
+    padding-top: 10px;
+}
+.Moneyback>p{
+    padding-top: 10px;
+}
+.buildforsucces>p{
+    padding-top: 10px;
+}
+.support>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Moneyback>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.buildforsucces>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.WordPress>h2>a{
+    color: #5588db;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    /* text-decoration: none; */
+
+}
+.support>h2>a{
+    color: #5588db;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    /* text-decoration: none; */
+
+}
+.Moneyback>h2>a{
+    color: #5588db;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    /* text-decoration: none; */
+
+}
+.buildforsucces>h2>a{
+    color: #5588db;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    text-decoration: none;
+
+}
+.build>button{
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: #6ace26;
+}
+.main{
+    /* background-color: green; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+
+}
+.intro{
+    /* box-shadow: 1px 1px 4px 1px #5b5b5b; */
+    border-top: 1px solid #e0e0e0 ;
+    background-color: #f9f9f9;
+    height: 540px;
+    display: flex;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.content>h1{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5588db;
+    font-size: 37px;
+}
+
+.content>p{
+    font-size: 19px;
+    
+    margin-top:20px;
+    color: #5b5b5b;
+}
+.structure{
+    
+    display: flex;
+    align-items: flex-end;
+}
+.structure>img{
+    width: 90%;
+    height: 87%;
+    margin-left: 20px;
+}
+.content>button{
+    
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    width: 220px;
+    height: 40px;
+    border: none;
+    background-color: #6ace26;
+
+}
+.ExpertSupport{
+    height: 400px;
+    background-image: url(logo12.jpg) ;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.phone{
+    width: 30px;
+    height:30px;
+    margin-right: 10px;
+}
+.chats{
+
+    position: relative;
+    top: 4px;
+    margin-left: 10px;
+    width: 35px;
+    height:35px;
+}
+.ExpertSupport{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.Expertcontent{
+    /* background-color: gray; */
+    width: 420px;
+}
+.Expertcontent>h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    /* background-color: green; */
+    /* padding: 40px; */
+}
+
+.Expertcontent>p{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: lighter; */
+    
+
+}
+
+.contact{
+    /* box-sizing: border-box; */
+    padding: 0px;
+    margin-top: 30px;
+}
+.contact>li{
+    display: inline;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    /* color: wheat; */
+}
+.contact>li>a{
+    color: white;
+    text-decoration: none;
+}
+.blueflash{
+    padding: 60px;
+    display: flex;
+    height: 500px;
+    /* background-color: gray; */
+}
+.bluecontent{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bluecontent>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #5588db;
+    font-size: 40px;
+}
+
+.bluecontent>p{
+    margin-top:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color:#5b5b5b ;
+
+
+}
+.connection>img{
+    width:600px ;
+    height: 500px;
+}
+.bluecontent>button{
+    
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: #6ace26;
+
+}
+.RegularRate{
+    background-color: #f9f9f9;
+    /* height: 100px; */
+    color: #5b5b5b;
+    padding: 20px;
+}
+.RegularRate>p>a{
+    text-decoration: none;
+    color: #5588db;
+    /* margin: 10px; */
+}
+.footer{
+    background-color: gray;
+    height: 500px;
+    display: flex;
+    
+}
+.product{
+    background-color: #4a83d8;
+    display: flex;
+    flex-grow: 1;
+    /* margin: 50px; */
+    padding-left: 30px ;
+    padding-right: 30px ;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.product>ul>li{
+    color:#4a83d8;
+    margin: 20px;
+}
+
+.product>ul>li>a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #ffffff;
+}
+.last{
+    
+    padding-right: 80px;
+    /* padding-right: 80px; */
+    padding-top: 100px;
+    padding-left: 30px;
+    background-color: #3575d3;
+    /* display: flex; */
+}
+.last>img+a{
+    /* padding-top: 20px; */
+    /* margin-bottom: 200px; */
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+}
+.last>p{
+    margin-top: 10px;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.last>p+a{
+    margin-top: 30px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+/* 
+.last>a+img{
+    width: 20px;
+    height: 20px;
+} */
+.fb{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+    margin-top: 20px;
+}
+.twitter{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+    margin-top: 20px;
+}
+.youtube{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+    margin-top: 20px;
+}
+.in{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+    margin-top: 20px;
+}
+.pinterest{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+    margin-top: 20px;
+}
+.insta{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+    margin-top: 20px;
+}
